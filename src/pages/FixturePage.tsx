@@ -30,7 +30,7 @@ interface Fixture {
 interface Prediction {
   id: number;
   name: string;
-  parcentege: number;
+  percentage: number;
 }
 
 const WeekPage: React.FC = () => {
