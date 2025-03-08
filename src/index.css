@@ -1,0 +1,7 @@
+/* If you need Flowbite's extra base styles for certain components: */
+@import "flowbite/dist/flowbite.css";
+
+/* Then the Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

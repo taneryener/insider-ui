@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:import/errors", "plugin:import/warnings", "plugin:import/typescript"],
+  "plugins": ["react", "import"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "sibling", "parent", "index"]
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
+}
